@@ -1,0 +1,81 @@
+.contato{
+    background-color: var(--azul--suave);
+    color: var(--texto-suave);
+}
+
+.contato__conteudo {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+}
+
+.contato__menu-logo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.contato__info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.contato__info-lista li{
+    margin-bottom: 24px;
+}
+
+.contato__formulario{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__formulario-titulo{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    margin-bottom: 8px;
+}
+
+.contato__formulario input{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    background: #ffffff;
+    padding: 0px 12px 25px 12px;
+
+}
+
+.contato__formulario-nome{
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.contato__formulario-nome::placeholder{
+    color: var(--placeholder);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.contato__formulario-msg{
+    height: 82px;
+    margin-bottom: 8px;
+}
+
+.contato__formulario-msg::placeholder{
+    color: var(--placeholder);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#btn{
+    width: 165px;
+    height: 51px;
+    border: none;
+    background-color: var(--azul-destaque);
+    color: #ffffff;
+    font-weight: 400;
+}

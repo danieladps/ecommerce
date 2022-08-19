@@ -1,0 +1,13 @@
+.produtos__btn_adicionar{
+    background-color: var(--azul-destaque);
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: raleway;
+}
+
+.produtos__cards-corpo a {
+    font-size: 14px;
+    color: var(--texto-suave);
+    font-weight: 500;
+}

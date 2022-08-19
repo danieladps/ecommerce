@@ -1,0 +1,67 @@
+@media screen and (min-width: 0) {
+    .cabecalho nav{
+        justify-content: space-between;
+    }
+
+    .conteudo__login{
+        width: 275px;
+    }
+
+    .conteudo__login-title{
+        font-size: 16px;
+    }
+
+    .conteudo__login-campos{
+        height: 41px;
+        margin-top: 16px;
+    }
+
+    .conteudo__login-enviar{
+        width: 109px;
+        height: 40px;
+        margin-top: 16px;
+        font-size: 14px;
+    }
+
+    .login{
+        padding: 92px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .mobile-desktop{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .conteudo__login{
+        width: 423px;
+    }
+
+    .conteudo__login-title{
+        font-size: 18px;
+    }
+
+    .conteudo__login-campos{
+        height: 63px;
+        margin-top: 18px;
+    }
+
+    .conteudo__login-enviar{
+        width: 100%;
+        height: 62px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    .login{
+        padding: 92px 0;
+    }
+
+    .mobile-desktop{
+        display: flex;
+    }
+}

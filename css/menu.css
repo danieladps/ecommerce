@@ -1,0 +1,48 @@
+.cabecalho nav {
+    width: 100%;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.menu__busca {
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo {
+    display: flex;
+}
+
+.destaque{
+    color: var(--azul-destaque);
+}
+
+#geek{
+    color: #464646;
+}
+
+.busca {
+    border-radius: 20px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position-x: 353px;
+    background-position-y: 8px;
+    padding: 8px 16px;
+    margin-left: 32px;
+}
+
+.busca::placeholder{
+    color: var(--placeholder);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-login {
+    width: 182px;
+    height: 51px;
+    color: var(--azul-destaque);
+    background-color: #ffffff;
+    border: 1px solid var(--azul-destaque);
+    margin-right: 0;
+}

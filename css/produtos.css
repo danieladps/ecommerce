@@ -1,0 +1,82 @@
+.produtos__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produtos__info h3{
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    line-height: 38px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.produtos__info a{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--azul-destaque);
+    font-weight: 700;
+    line-height: 18.78px;
+}
+
+.seta{
+    width: 14px;
+    height: 14px;
+    margin-left: 13px;
+}
+
+.produtos__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produtos__cards{
+    display: grid;
+    grid-template-areas: 
+        "card-img"
+        "card-corpo";
+    grid-template-columns: 100%;
+    grid-template-rows: 174px auto;
+    padding:  1rem 0;
+}
+
+.produtos__cards-img {
+    grid-area: card-img;
+}
+
+.produtos__cards-corpo {
+    grid-area: card-corpo;
+}
+
+.produtos__cards-corpo p{
+    margin: 8px 0;
+}
+
+.produtos__cards-corpo p:nth-child(1){
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+}
+
+.produtos__cards-corpo p:nth-child(2){
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.78px;
+}
+
+.produtos__cards-corpo a{
+    font-family: 'Raleway', sans-serif;
+    color: var(--azul-destaque);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+}
+

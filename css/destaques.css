@@ -1,0 +1,19 @@
+.destaques__conteudo {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__destaque{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.botao__destaque {
+    background-color: var(--azul-destaque);
+    color: #ffffff;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}

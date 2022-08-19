@@ -1,0 +1,386 @@
+@media screen and (min-width: 0) {
+    .app{
+        grid-template-rows: 72px auto 102px;
+    }
+
+    .cabecalho{
+        height: 72px;
+    }
+    
+    .cabecalho nav{
+        height: 72px;
+        padding: 27px 18px;
+    }
+
+    .menu__logo {
+        width: 110px;
+    }
+
+    .logo {
+        width: 22.74px;
+        height: 16.33px;
+        margin: auto 0.2rem;
+    }
+    .texto__menu{
+        font-size: 16px;
+    }
+
+    .busca{
+       width: 24px;
+       height: 24px; 
+       background-position-x: 0;
+       background-position-y: 0;
+       background-color: #ffffff;
+    }
+
+    .responsivo{
+        display: block;
+    }
+
+    .tablet-desktop{
+        display: none;
+    }
+
+    .menu__login{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .btn-login {
+        width: 133px;
+        height: 40px;
+        font-weight: 600;
+    }
+
+    .destaques{
+        height: 192px;
+        padding: 0;
+        background-image: url(../img/destaque.png);
+        background-size: 100vw ;
+        background-repeat: no-repeat;
+    }
+
+    .destaques__conteudo {
+        justify-content: end;
+        padding: 16px;
+        height: 100%;
+    }
+
+    .destaques__conteudo p:nth-child(1){
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .destaques__conteudo p:nth-child(2){
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .texto__destaque{
+        margin: 0 0 8px 0;
+    }
+
+    .botao__destaque {
+        width: 119px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .produtos__info h3{
+        font-size: 22px;
+    }
+
+    .produtos{
+        padding: 16px;
+    }
+
+    .produtos__cards{
+        width: 156px;
+    }
+
+    .produtos__cards:nth-child(5){
+        display: none;
+    }
+
+    .produtos__cards:nth-child(6){
+        display: none;
+    }
+
+    .produtos__cards-img {
+        width: 100%;
+        height: 174px;
+    }
+
+    .mobile-desktop{
+        display: block;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .contato{
+        padding: 0;
+        padding-top: 16px;
+    }
+
+    .contato__conteudo {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contato__menu-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato__logo{
+        width: 40.02;
+        height: 29.17;
+        margin-right: 5px;
+    }
+
+    .texto__menu-contato {
+        font-size: 26px;
+    }
+
+    .contato__info {
+        width: 100%;
+        text-align: center;
+        padding: 32px;
+    }
+    
+    .contato__formulario{
+        width: 100%;
+        height: auto;
+        padding: 0 16px 16px 16px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .responsivo{
+        display: none;
+    }
+
+    .tablet-desktop{
+        display: flex;
+    }
+
+    .cabecalho{
+        padding: 16px 32px;
+    }
+
+    .cabecalho nav{
+        justify-content: space-between;
+    }
+
+    .busca{
+        width: 272px;
+        height: 40px;
+        background-position-x: 230px;
+        background-position-y: 8px;
+        background-color: #f5f5f5;
+    }
+
+    .btn-login {
+        width: 166px;
+    }
+
+    .destaques{
+        height: 352px;
+        padding: 32px;
+        background-image: url(../img/destaque.png);
+    }
+
+    .destaques__conteudo {
+        padding: 0;
+    }
+
+    .produtos{
+        padding: 32px;
+        padding-bottom: 0;
+    }
+
+    .produtos__conteudo{
+        margin-bottom: 16px;
+    }
+
+    .produtos__cards{
+        width: 164px;
+    }
+
+    .mobile-desktop{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+        width: 254px;
+    }
+
+    .contato{
+        padding: 32px;
+    }
+
+    .contato__conteudo {
+        height: 300px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contato__menu-logo{
+        justify-content: start;
+    }
+
+    .contato__info{
+        padding: 16px 0 0 0;
+        text-align: start;
+    }
+
+    .contato__formulario{
+        width: 434px;
+        padding: 0;
+    }
+    
+    #btn{
+        width: 151px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .app{
+        grid-template-rows: 115px auto 102px;
+    }
+
+    .cabecalho{
+        height: 116px;
+        padding: 0 110px;
+    }
+    
+    .cabecalho nav{
+        height: 116px;
+        padding: 0;
+    }
+
+    .menu__logo {
+        width: 176px;
+    }
+
+    .logo {
+        width: 40.02px;
+        height: 29.17px;
+        margin: auto;
+    }
+
+    .texto__menu{
+        font-size: 24px;
+    }
+
+    .busca{
+        width: 393px;
+        background-position-x: 353px;
+    }
+
+    .btn-login {
+        width: 182px;
+        height: 51px;
+        font-weight: 400;
+    }
+
+    .destaques{
+        height: 352px;
+        padding: 110px;
+        background-image: url(../img/destaque.png);
+    }
+
+    .destaques__conteudo {
+        padding: 30px 0 0 0;
+        height: 200px
+    }
+
+    .destaques__conteudo p:nth-child(1){
+        font-size: 52px;
+        line-height: 61px; 
+    }
+
+    .destaques__conteudo p:nth-child(2){
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .texto__destaque{
+        margin: 0 0 16px 2px;
+    }
+
+    .botao__destaque {
+        width: 130px;
+        height: 51px;
+        font-size: 16px;
+    }
+
+    .produtos{
+        padding: 64px 110px 0 110px;
+    }
+
+    .produtos__conteudo{
+        margin-bottom: 32px;
+    }
+
+    .produtos__info h3{
+        font-size: 32px;
+    }
+
+    .produtos__cards{
+        width: 176px;
+    }
+
+    .produtos__cards:nth-child(5){
+        display: block;
+    }
+
+    .produtos__cards:nth-child(6){
+        display: block;
+    }
+
+    .mobile-desktop{
+        display: flex;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .contato{
+        padding: 64px 110px;
+    }
+
+    .contato__conteudo {
+        flex-direction: row;
+        height: 234px;
+    }
+
+    .contato__menu-logo{
+        width: 176px;
+    }
+
+    .contato__info {
+        width: auto;
+        text-align: start;
+        padding: 0;
+    }
+    
+    .contato__formulario{
+        width: 560px;
+        padding: 0;
+    }
+
+    #btn{
+        width: 165px;
+        height: 51px;
+    }
+}

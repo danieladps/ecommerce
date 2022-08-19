@@ -1,0 +1,6 @@
+.rodape p{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    font-weight: 500;
+}
