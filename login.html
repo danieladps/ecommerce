@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/home_login.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/menu.css" rel="stylesheet">
+    <link href="./css/rodape.css" rel="stylesheet">
+    <link href="./css/fonts.css" rel="stylesheet">
+    <link href="./css/responsivo.css" rel="stylesheet">
+    <link href="./css/contato.css" rel="stylesheet">
+    <link href="./css/login_responsivo.css" rel="stylesheet">
+</head>
+<body class="app">
+    <header class="cabecalho">
+        <nav>
+            <div class="menu__busca">
+                <div class="menu__logo">
+                    <img class="logo" src="./img/Vector.png" alt="Logo da AluraGeek"> 
+                    <p class="texto__menu destaque">Alura</p><p class="texto__menu" id="geek">Geek</p>
+                </div>  
+                <input type="text" class="busca tablet-desktop" placeholder="O que deseja encontrar?">             
+            </div>
+            <div class="menu__login">
+                <input type="text" class="busca responsivo">
+            </div>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="login">
+            <div class="conteudo__login">                    
+                <h3 class="conteudo__login-title">Iniciar Sessão</h3>
+                <input class="conteudo__login-campos" type="email" placeholder="Escreva seu email">
+                <input class="conteudo__login-campos" type="password" placeholder="Escreva sua senha">
+                <button class="conteudo__login-enviar" type="button">Entrar</button>    
+            </div>
+        </section>
+        <section class="contato">
+            <div class="contato__conteudo">
+                <div class="contato__menu-logo mobile-desktop">
+                    <img class="contato__logo" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
+                    <p class="texto__menu-contato destaque">Alura</p><p class="texto__menu-contato">Geek</p>
+                </div>
+                <div class="contato__info mobile-desktop">
+                    <ul class="contato__info-lista">
+                        <li>Quem somos nós</li>
+                        <li>Politica de privacidade</li>
+                        <li>Programa fidelidade</li>
+                        <li>Nossas lojas</li>
+                        <li>Quero ser franqueado</li>
+                        <li>Anuncie aqui</li>
+                    </ul>
+                </div>
+                <div class="tablet">
+                    <div class="contato__menu-logo">
+                        <img class="contato__logo" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
+                        <p class="texto__menu-contato destaque">Alura</p><p class="texto__menu-contato">Geek</p>
+                    </div>
+                    <div class="contato__info">
+                        <ul class="contato__info-lista">
+                            <li>Quem somos nós</li>
+                            <li>Politica de privacidade</li>
+                            <li>Programa fidelidade</li>
+                            <li>Nossas lojas</li>
+                            <li>Quero ser franqueado</li>
+                            <li>Anuncie aqui</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contato__formulario">
+                    <h3 class="contato__formulario-titulo">Fale Conosco</h3>
+                    <input class="contato__formulario-nome" type="text" placeholder="Nome">
+                    <input class="contato__formulario-msg" type="text" placeholder="Escreva uma mensagem">
+                    <button class="contato__fomulario-btn" type="button" id="btn" >Enviar mensagem</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Daniela Pereira</p><p>2022</p>
+    </footer>
+</body>
+</html>
